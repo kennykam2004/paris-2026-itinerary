@@ -10,15 +10,19 @@
 - `service-worker.js`：快取 App shell
 - `icons/`：主畫面圖示
 
+公開 HTTPS 網址：
+
+https://kennykam2004.github.io/paris-2026-itinerary/
+
 ## iPhone 加入主畫面方式
 
-1. 先把網站部署到 HTTPS 網址。
-2. 用 iPhone 的 Safari 開啟該網址。
+1. 用 iPhone 的 Safari 開啟公開網址：`https://kennykam2004.github.io/paris-2026-itinerary/`
+2. 等頁面載入完成。
 3. 點 Safari 下方分享按鈕。
 4. 選「加入主畫面」。
 5. 名稱建議保留 `Paris 2026`。
 
-注意：`file://` 本機檔案可以在電腦預覽，但 iPhone 不會把它當成正式可安裝 PWA。正式使用請部署到 HTTPS。
+注意：`file://` 本機檔案可以在電腦預覽，但 iPhone 不會把它當成正式可安裝 PWA。正式使用請開啟上方 HTTPS 網址。
 
 ## 隱私提醒
 
